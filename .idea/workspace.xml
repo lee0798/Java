@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f9e9df6c-7cb1-457d-ba1c-d3d3610240ca" name="Changes" comment="java using mysql">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/mysql_connector_java_8_0_25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BoardDeleteExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BoardUpdateExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UserInsertExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UserSelectExample.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
+  </component>
+  <component name="ProjectId" id="2Rn6q5zozxbgHqzQ0KNmClWGFy7" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "/Users/dodo/Desktop/도환/java/Java/src/Main.java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/out/production/Java/ch20/mysql/sec07" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="BoardUpdateExample" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch20.mysql.sec07.BoardUpdateExample" />
+      <module name="Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ch20.mysql.sec07.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="Java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserInsertExample" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch20.mysql.sec06.UserInsertExample" />
+      <module name="Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ch20.mysql.sec06.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ch20.mysql.sec05.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch20.mysql.sec05.Main" />
+      <module name="Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ch20.mysql.sec05.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.UserInsertExample" />
+        <item itemvalue="Application.ch20.mysql.sec05.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f9e9df6c-7cb1-457d-ba1c-d3d3610240ca" name="Changes" comment="" />
+      <created>1687873685802</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1687873685802</updated>
+      <workItem from="1687873686810" duration="3002000" />
+      <workItem from="1687950193479" duration="1210000" />
+      <workItem from="1688014129196" duration="682000" />
+      <workItem from="1688017113904" duration="946000" />
+      <workItem from="1688018064029" duration="446000" />
+      <workItem from="1688018749713" duration="613000" />
+      <workItem from="1688035771951" duration="1919000" />
+      <workItem from="1688048968452" duration="674000" />
+      <workItem from="1688050953221" duration="1319000" />
+      <workItem from="1688296531505" duration="713000" />
+      <workItem from="1690718332173" duration="1322000" />
+      <workItem from="1691316527553" duration="32000" />
+      <workItem from="1693566822268" duration="1273000" />
+      <workItem from="1693568106797" duration="9215000" />
+      <workItem from="1693618560780" duration="4722000" />
+      <workItem from="1693627909279" duration="1976000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="java using mysql" />
+    <option name="LAST_COMMIT_MESSAGE" value="java using mysql" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
