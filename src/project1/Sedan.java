@@ -1,10 +1,8 @@
 package com.example.prac.project1;
 
-public class Sedan extends Car{
+public class Sedan extends Car implements Sound{
     static int scount = 0;
-    private int speed;
-    private String no;
-    private String color;
+    private int volume;
     private int cc;
     public Sedan(){
         super();//no만들기
@@ -16,6 +14,19 @@ public class Sedan extends Car{
         scount += 1;
         super.setNo("01-00"+scount);
         this.cc = cc;
+    }
+    @Override
+    public void soundUp() {
+        this.volume +=12;
+    }
+
+    @Override
+    public void soundDown() {
+        if(this.volume -12 < 0){
+            this.volume = 0;
+        }else{
+            this.volume -= 12;
+        }
     }
 
     @Override
@@ -39,10 +50,8 @@ public class Sedan extends Car{
     @Override
     public void carMember() {
         super.carMember();
-        System.out.printf(" people : %10s",this.cc);
+        System.out.printf(" cc : %10s volume :  %10d",this.cc,this.volume);
         System.out.println();
     }
-
-
 }
 

@@ -1,12 +1,8 @@
 package com.example.prac;
 
-import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
-
-@SpringBootApplication
 public class week3_study7 {
     public static void main(String[] args) {
-        SpringApplication.run(Week1Application.class, args);
+
         int[] arr = new int[10];
         int sum = 0;
         System.out.print("랜덤한 정수들 : ");

@@ -1,9 +1,6 @@
 package com.example.prac;
 
-import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-@SpringBootApplication
 public class week3 {
 
 
@@ -21,7 +18,7 @@ public class week3 {
 
     }
     public static void main(String[] args) {
-        SpringApplication.run(Week1Application.class, args);
+
         int arr[][] = new int[4][5];
         int i = 1;
         for (int[] arrs : arr) {

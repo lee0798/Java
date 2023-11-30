@@ -1,13 +1,11 @@
 package com.example.prac.project1;
 
-public class Truck extends Car{
+public class Truck extends Car implements Sound{
+    private int volume;
     static int tcount = 0;
-    private int speed;
-    private String no;
-    private String color;
     private int ton;
     public Truck(){
-        super();//no만들기
+        super();
         tcount += 1;
         super.setNo("03-00"+tcount);
     }
@@ -17,6 +15,20 @@ public class Truck extends Car{
         tcount += 1;
         super.setNo("01-00"+tcount);
         this.ton = ton;
+    }
+
+    @Override
+    public void soundUp() {
+        this.volume +=8;
+    }
+
+    @Override
+    public void soundDown() {
+        if(this.volume -8 < 0){
+            this.volume = 0;
+        }else{
+            this.volume -= 8;
+        }
     }
 
     @Override
@@ -36,7 +48,7 @@ public class Truck extends Car{
     @Override
     public void carMember() {
         super.carMember();
-        System.out.printf(" people : %10d",this.ton);
+        System.out.printf(" ton : %10d volume :  %9d",this.ton,this.volume);
         System.out.println();
     }
 }

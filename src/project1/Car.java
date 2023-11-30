@@ -71,12 +71,6 @@ public class Car {
             return false;
         }
     }
-    public void classEqual(){
-        if(this.getClass() == Car.class){
-            System.out.print("Car의 객체임");
-        }else {
-            System.out.print("Car의 객체아님");
-        }
-    }
+
 
 }

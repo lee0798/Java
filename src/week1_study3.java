@@ -1,13 +1,11 @@
 package com.example.prac;
 
-import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 import java.util.Scanner;
-@SpringBootApplication
+
 public class week1_study3 {
     public static void main(String[] args) {
-        SpringApplication.run(Week1Application.class, args);
+
         Scanner scanner = new Scanner(System.in);
         int a = scanner.nextInt();
         int b;

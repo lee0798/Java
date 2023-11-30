@@ -1,11 +1,9 @@
 package com.example.prac;
 
-import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 import java.util.ArrayList;
 import java.util.Scanner;
-@SpringBootApplication
+
 public class week3_study8 {
     public static boolean same(ArrayList<Integer> arr, int a) {
         for(int i = 0; i < arr.size(); i ++){
@@ -16,7 +14,7 @@ public class week3_study8 {
         return false;
     }
     public static void main(String[] args) {
-        SpringApplication.run(Week1Application.class, args);
+
         Scanner scanner = new Scanner(System.in);
         int num = scanner.nextInt();
         if( num > 100 || num < 0){

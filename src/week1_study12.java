@@ -1,13 +1,10 @@
 package com.example.prac;
 
-import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 import java.util.Scanner;
-@SpringBootApplication
+
 public class week1_study12 {
     public static void main(String[] args) {
-        SpringApplication.run(Week1Application.class, args);
         Scanner scanner = new Scanner(System.in);
         System.out.print("연산식 입력: ");
         String a = new String(scanner.nextLine());
